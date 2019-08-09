@@ -15,6 +15,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
+gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
